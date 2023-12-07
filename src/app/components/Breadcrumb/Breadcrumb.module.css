@@ -1,0 +1,32 @@
+.breadcrumbContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2em 1em 0em 1em;
+}
+
+.breadcrumbList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbList li {
+    padding: 0.2em;
+}
+
+.breadcrumbList a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-color: #d52b1e;
+    text-decoration-thickness: 0.1em;
+}
+
+.breadcrumbList span {
+    padding: 0.4em;
+}
+
+.currentPage {
+    font-weight: 600;
+}

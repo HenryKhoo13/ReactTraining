@@ -11,12 +11,12 @@ const navbarItems: NavbarItem[] = [
         slug: '/',
     },
     {
-        text: 'Page 1',
-        slug: '/',
+        text: 'Test Page',
+        slug: '/TestPage',
     },
     {
-        text: 'Page 2',
-        slug: '/',
+        text: 'Another Page',
+        slug: '/TestPage/AnotherPage',
     },
 ]
 
